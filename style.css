@@ -16,39 +16,34 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #E4EBF5;
+    background-color: #1b1b1b;
 }
 
 .contaner {
     height: 60vh;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.418);
+    background-color: rgba(255, 255, 255, 0.103);
     border-radius: 20px;
-    box-shadow: 0.3rem 0.3rem 0.6rem lightgrey,
-        -0.2rem -0.2rem 0.5rem lightgrey;
 }
 
 .textPart {
     padding: 40px;
     margin-bottom: 20px;
     border-radius: 15px;
-    box-shadow: inset 0.2rem 0.2rem 0.5rem lightgrey,
-        inset -0.2rem -0.2rem 0.5rem lightgrey;
     display: flex;
     flex-wrap: nowrap;
-
+    background-color: #1b1b1b;
 }
 
 .textPart input {
     width: 55vh;
     background-color: transparent;
     border-radius: 10px;
-    box-shadow: inset 0.2rem 0.2rem 0.5rem lightgrey,
-        inset -0.2rem -0.2rem 0.5rem lightgrey;
-    border: none;
+    border: 2px solid white;
     padding: 10px;
     margin-right: 10px;
     font-size: 17.5px;
+    color: rgb(5, 255, 80);
 
     &:focus {
         outline: none;
@@ -60,25 +55,20 @@ body {
     width: 50px;
     font-size: 16px;
     background-color: transparent;
-    border: none;
+    border: 2px solid white;
     border-radius: 10px;
-    box-shadow: 0.3rem 0.3rem 0.6rem lightgrey,
-        -0.2rem -0.2rem 0.5rem lightgrey;
+    color: rgb(5, 255, 80);
 }
 .textPart button:focus{
     outline: none;
 }
-.textPart button:active{
-    box-shadow: inset 0.2rem 0.2rem 0.5rem lightgrey,
-        inset -0.2rem -0.2rem 0.5rem lightgrey;
-}
+
 
 
 .show_task {
     height: calc(100% - 22.5vh);
     border-radius: 15px;
-    box-shadow: inset 0.2rem 0.2rem 0.5rem lightgrey,
-        inset -0.2rem -0.2rem 0.5rem lightgrey;
+    background-color: #1b1b1b;
     padding: 20px;
     overflow: auto;
 }
@@ -99,25 +89,27 @@ body {
     padding: 10px;
     border-radius: 10px;
     list-style: none;
-    box-shadow: inset 0.2rem 0.2rem 0.5rem lightgrey,
-        inset -0.2rem -0.2rem 0.5rem lightgrey;
+    border: 2px solid white;
     display: grid;
     place-content: center;
+    color: rgb(5, 255, 80);
 }
 
 .show_task .conten_task li div.text_Task {
+    display: flex;
+    align-items: center;
     width: calc(100% - 100px);
     height: 45px;
     padding: 10px;
     margin: 0px 10px;
     border-radius: 10px;
     list-style: none;
-    box-shadow: inset 0.2rem 0.2rem 0.5rem lightgrey,
-        inset -0.2rem -0.2rem 0.5rem lightgrey;
+    background-color: rgba(255, 255, 255, 0.24);
+    color: rgb(5, 255, 80);
 }
 .status {
     font-size: 18px;
-    color: green;
+    color: rgb(5, 255, 80);
 }
 .status ion-icon{
     opacity: 0;
